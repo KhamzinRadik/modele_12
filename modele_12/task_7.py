@@ -15,8 +15,9 @@ def rock_paper_scissors():
 
   # Здесь будет игра «Камень, ножницы, бумага»
 
-#def guess_the_number():
-  # Здесь будет игра «Угадай число»
+def guess_the_number():
+  chislo = 5
+  plauer_chislo=int(input('угодайте число')
 
 def mainMenu(otvet):
   otvet=int(input('выберете игру 1 «Камень, ножницы, бумага», 2 Угадай число'))
