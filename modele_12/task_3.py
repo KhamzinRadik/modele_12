@@ -1,0 +1,39 @@
+# -*- coding: cp1251 -*-
+
+
+def summ (a,b):
+    summ=a+b
+    return summ
+
+def maximum(a,b):
+    max=0
+    if a>b:
+        max=a
+    else:
+        max=b
+    return max
+
+def minimum (a,b):
+    min=0
+    if a<b:
+        min=a
+    else :
+        min=b
+
+    return min
+while (True):
+    nambrt_1=int(input('введите 2 числа '))
+    namber_2=int(input())
+    otvet=int(input ('введите 1 усли вы хотите сложить цифры, 2 если хотите узнать наибольшее из 2х чисел, 3 если минимальную из 2х чисел или 0 для выхода'))
+    while(otvet<0 or otvet >3):
+        if otvet!=0:
+            otvet=input ("введен не корректный ответ попробуйте еще раз")
+        if otvet==0:
+            False
+    if otvet==1:
+        print (summ (nambrt_1,namber_2))
+    if otvet==2:
+        print (maximum(nambrt_1,namber_2))
+    if otvet==3:
+        print (minimum(nambrt_1,namber_2))
+
